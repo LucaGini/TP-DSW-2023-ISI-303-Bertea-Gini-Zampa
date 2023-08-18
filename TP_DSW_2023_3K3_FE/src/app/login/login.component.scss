@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lora&family=Montserrat:wght@300&family=Quicksand:wght@500&display=swap');
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.button-space {
+  // para separar un poco los botones
+  margin-left: 10px;
+}
+
+.right-align {
+  display: flex;
+  justify-content: flex-end;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}

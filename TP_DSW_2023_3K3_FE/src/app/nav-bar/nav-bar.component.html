@@ -1,14 +1,17 @@
-<nav class="navbar">
-  <div>
-    <a class="logo" routerLink="/"><img class="img-logo" src="/assets/img/slicer_logo.jpg" alt="img"></a>
-    <a class="title" routerLink="/">Slicer</a>
-  </div>
-    <ul class="nav-links">
-      <li><a routerLink="/products">Products</a></li>
-      <li><a routerLink="/sales">Sales</a></li>
-      <li><a routerLink="/categories">Categories</a></li>
-      <li><a routerLink="/login_sign_up">Login</a></li>
-      <li><a routerLink="/cart"><img class="img-cart" src="/assets/img/cart_img.png" alt="img"></a></li>
-    </ul>
+<mat-toolbar class='title'>
+  <span>Slicer 3d</span>
+</mat-toolbar>
 
-</nav>
+<mat-toolbar class='navBar'>
+  <mat-toolbar-row>
+    <span class='example-spacer'> </span>
+    <button mat-button>Products</button>
+    <button mat-button>Sales</button>
+    <button mat-button>Categories</button>
+    <span class="material-symbols-rounded">
+      Login
+    </span>
+    <button mat-fab aria-label="Example icon button with a delete icon">
+      <mat-icon>shopping_cart</mat-icon>
+    </button>
+  </mat-toolbar-row>
