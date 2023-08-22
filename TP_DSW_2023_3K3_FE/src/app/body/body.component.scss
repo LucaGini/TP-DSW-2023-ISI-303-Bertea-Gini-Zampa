@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lora&display=swap');
 
-h2,
-h3 {
-  font-family: 'Dancing Script', cursive;
-  font-family: 'Lora', serif;
+html, h2, h1{
+  font-family: 'Montserrat', sans-serif;
+}
+h2, h1, h3, p{
+  margin: 1rem;
+}
+
+body{
+  margin:0;
+  background-color: #a31212;
 }
 
 .img {
@@ -19,9 +25,22 @@ h3 {
   /* Opcional: para centrar horizontalmente */
   text-align: center;
   /* Opcional: para centrar el texto horizontalmente */
+  padding: 0.25rem 0;
+  /* Espacio entre los elementos */
 }
 
 .text-container {
-  margin-top: 10px;
-  /* Espacio entre la imagen y el texto */
+  transition: all 0.3s ease;
+  /* Color de fondo */
+  margin: 1rem 0;
+  /* Espacio entre los elementos */
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  /* Bordes redondeados */
+  padding: 0.15rem 0;
+  cursor: pointer;
+}
+
+.text-container:hover{
+  box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.5);
 }
