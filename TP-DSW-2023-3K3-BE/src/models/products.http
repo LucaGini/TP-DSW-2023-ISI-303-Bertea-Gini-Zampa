@@ -1,0 +1,53 @@
+### obtener todos los productos
+
+GET http://localhost:3000/api/products
+
+### obtener un producto por id ----- 1 es el id del producto
+
+GET http://localhost:3000/api/products/1   
+
+### crear un nuevo producto
+
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+  "description": "Formula 1 Key Ring",
+  "stock": 20,
+  "material": "plastic",
+  "name":"Key Ring",
+  "categoryId": 1,
+  "cuil": "20-24231089-8"
+}
+
+### modificar un producto (PUT - recurso completo e idempotente)
+
+PUT http://localhost:3000/api/products/1
+Content-Type: application/json
+
+{
+  "description": "Argentina Key Ring",
+  "stock": 22,
+  "material": "plastic",
+  "name":"Key Ring",
+  "categoryId": 1,
+  "cuil": "20-24231086-8"
+}
+
+### modificar un producto (PATCH  - recurso parcial)
+
+PATCH http://localhost:3000/api/products/1
+Content-Type: application/json
+
+{
+  "description": "USA Key Ring",
+  "stock": 22,
+  "material": "resin",
+  "name":"Key Ring",
+  "categoryId": 1,
+  "cuil": "20-24231086-8"
+}
+
+### borrar un producto
+
+DELETE http://localhost:3000/api/products/1

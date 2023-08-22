@@ -1,0 +1,1 @@
+{"version":3,"file":"province.js","sourceRoot":"","sources":["../src/models/province.ts"],"names":[],"mappings":"AAAA,MAAM,OAAO,QAAQ;IAInB,YAAY,UAAkB,EAAE,IAAY;QAC1C,IAAI,CAAC,UAAU,GAAG,UAAU,CAAC;QAC7B,IAAI,CAAC,IAAI,GAAG,IAAI,CAAC;IACnB,CAAC;CACF"}
