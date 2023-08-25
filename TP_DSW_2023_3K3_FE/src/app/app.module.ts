@@ -15,6 +15,8 @@ import { MatIconModule } from '@angular/material/icon'; // icon
 import {MatGridListModule} from '@angular/material/grid-list';// columnas y filas
 import {MatFormFieldModule} from '@angular/material/form-field'; //contraseña
 import {MatInputModule} from '@angular/material/input';// login input 
+import { FooterComponent } from './footer/footer.component';
+import { BottomComponent } from './bottom/bottom.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import {MatInputModule} from '@angular/material/input';// login input
     AppComponent,
     NavBarComponent,
     BodyComponent,
-    LoginComponent
+    LoginComponent,
+    FooterComponent,
+    BottomComponent
   ],
   imports: [
     BrowserModule,

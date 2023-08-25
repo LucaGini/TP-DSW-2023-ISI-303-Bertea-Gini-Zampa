@@ -14,7 +14,8 @@ body{
 
 .img {
   height: 300px;
-  width: 300px
+  width: 300px;
+  border-radius: 0.5rem;
 }
 
 .item-container {
@@ -30,17 +31,16 @@ body{
 }
 
 .text-container {
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-out;
   /* Color de fondo */
   margin: 1rem 0;
   /* Espacio entre los elementos */
   background-color: #ffffff;
   border-radius: 0.5rem;
   /* Bordes redondeados */
-  padding: 0.15rem 0;
   cursor: pointer;
 }
 
 .text-container:hover{
-  box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.5);
 }
