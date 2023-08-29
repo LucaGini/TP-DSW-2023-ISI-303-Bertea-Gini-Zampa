@@ -1,0 +1,26 @@
+<mat-toolbar class='title'>
+  <a class="navbar-brand" href="#">Slicer</a>
+</mat-toolbar>
+
+<mat-toolbar class='navBar'>
+  <mat-toolbar-row>
+    <span class='example-spacer'> </span>
+    <button mat-button>Sales</button>
+    <!--Hacer desplegable de categories y que muestre estos botones-->
+    <button mat-button>Categories</button>
+    <button mat-button><a class="btn btn" href="#machinery">Machinery</a></button>
+    <button mat-button><a class="btn btn" href="#military">Military</a></button>
+    <button mat-button><a class="btn btn" href="#sculpture">Sculpture</a></button>
+    <button mat-button><a class="btn btn" href="#spacex">Space X</a></button>
+    <button mat-button><a class="btn btn" href="#starwars">Star Wars</a></button>
+    
+
+    <button (click)="navigate()" mat-button>
+          <span class="material-symbols-rounded">
+            Login
+          </span>
+    </button>
+    <button mat-fab aria-label="Example icon button with a delete icon">
+      <mat-icon>shopping_cart</mat-icon>
+    </button>
+</mat-toolbar-row>

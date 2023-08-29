@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lora&display=swap');
+
+html,
+h2,
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2,
+h1,
+h3,
+p {
+  margin: 1rem;
+}
+
+body {
+  margin: 0;
+  background-color: #a31212;
+}
+
+.img {
+  height: 300px;
+  width: 300px;
+  transition: transform 0.4s;
+  border-radius: 0.5rem;
+}
+
+.img:hover {
+  transform: scale(1.1);
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  /* Cambia el flujo a columna */
+  align-items: center;
+  /* Opcional: para centrar horizontalmente */
+  text-align: center;
+  /* Opcional: para centrar el texto horizontalmente */
+  padding:0.5rem;
+  /* Espacio entre los elementos */
+}
+
+.text-container {
+  transition: all 0.3s ease-out;
+  /* Color de fondo */
+  margin: 1rem 0;
+  /* Espacio entre los elementos */
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  /* Bordes redondeados */
+  cursor: pointer;
+}
+
+
+
+

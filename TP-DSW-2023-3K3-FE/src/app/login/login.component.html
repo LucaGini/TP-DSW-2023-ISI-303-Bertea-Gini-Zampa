@@ -1,0 +1,93 @@
+<mat-grid-list cols="2">
+  <mat-grid-tile>
+    <div class="login-container">
+      <h1>Log In</h1>
+      <form class="example-form">
+        <mat-form-field class="example-full-width">
+          <mat-label>Enter your e-mail</mat-label>
+          <input matInput placeholder value type="email">
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>Enter your password</mat-label>
+          <input matInput placeholder value type="password">
+        </mat-form-field>
+
+        <div class="button-container right-align">
+          <button mat-raised-button color="accent">Accept</button>
+          <span class="button-space"></span>
+          <button mat-raised-button disabled>Cancel</button>
+        </div>
+      </form>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <div class="login-container">
+      <h1>Sign Up</h1>
+      <form class="example-form">
+
+        <table class="example-full-width" cellspacing="0">
+          <tr>
+            <td><mat-form-field class="example-full-width">
+                <mat-label>Name*</mat-label>
+                <input matInput>
+              </mat-form-field></td>
+            <td><mat-form-field class="example-full-width">
+                <mat-label>Surname*</mat-label>
+                <input matInput>
+              </mat-form-field></td>
+          </tr>
+        </table>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>DNI*</mat-label>
+          <input matInput placeholder value>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>E-mail*</mat-label>
+          <input matInput placeholder value type="email">
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>Telephone number</mat-label>
+          <input matInput placeholder value type="tel">
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <mat-label>City*</mat-label>
+          <input matInput placeholder value>
+        </mat-form-field>
+
+        <table class="example-full-width" cellspacing="0">
+          <tr>
+            <td><mat-form-field class="example-full-width">
+                <mat-label>Street*</mat-label>
+                <input matInput>
+              </mat-form-field></td>
+            <td><mat-form-field class="example-full-width">
+                <mat-label>Number*</mat-label>
+                <input matInput type="number">
+              </mat-form-field></td>
+          </tr>
+        </table>
+
+        <!--<mat-radio-group aria-label="Select an option">
+          <h2>Tipo cliente*</h2>
+          <mat-radio-button value="1">Mayorista</mat-radio-button>
+          <mat-radio-button value="2">Minorista</mat-radio-button>
+        </mat-radio-group>-->
+
+        <mat-form-field class="example-full-width">
+          <mat-label>Password*</mat-label>
+          <input matInput placeholder value type="password">
+        </mat-form-field>
+        <div class="button-container right-align">
+          <button mat-raised-button color="accent">Accept</button>
+          <span class="button-space"></span>
+          <button mat-raised-button disabled>Cancel</button>
+        </div>
+      </form>
+    </div>
+  </mat-grid-tile>
+

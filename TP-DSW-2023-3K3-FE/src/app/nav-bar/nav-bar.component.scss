@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lexend', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #334df7;
+  color: white;
+  /* Asegura que el encabezado esté por encima del contenido */
+}
+
+.mat-toolbar.navBar{
+  .mat-toolbar-row{
+    justify-content: flex-end;
+    gap: 50px;
+  }
+}
+
+button.mat-button {
+      margin-left: 10px; // Margen izquierdo para separar los botones
+      margin-top: 65px
+    }
+
+.material-symbols-rounded {
+  margin-top: 10px;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
