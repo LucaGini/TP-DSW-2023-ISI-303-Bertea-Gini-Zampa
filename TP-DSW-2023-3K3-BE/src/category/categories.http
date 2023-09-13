@@ -1,0 +1,38 @@
+### obtener todas las categorias
+
+GET http://localhost:3000/api/categories
+
+### obtener un producto por id ----- 1 es el id del producto
+
+GET http://localhost:3000/api/categories/1   
+
+### crear un nuevo producto
+
+POST http://localhost:3000/api/categories
+Content-Type: application/json
+
+{
+    "name": "Santa Fe"
+}
+
+### modificar un producto (PUT - recurso completo e idempotente)
+
+PUT http://localhost:3000/api/categories/1
+Content-Type: application/json
+
+{
+    "name": "Buenos Aires"
+}
+
+### modificar un producto (PATCH  - recurso parcial)
+
+PATCH http://localhost:3000/api/categories/1
+Content-Type: application/json
+
+{
+    "name": "Entre Rios"
+}
+
+### borrar un producto
+
+DELETE http://localhost:3000/api/categories/1

@@ -1,11 +1,13 @@
+import { Product } from "../product/product.entity.js";
+
 export class PriceHistory{
   dateSince: Date;
   price: number;
-  productId: number;
+  product: Product;
 
-  constructor(dateSince: Date, price: number, productId: number){
+  constructor(dateSince: Date, price: number, product: Product){
     this.dateSince =dateSince;
     this.price = price;
-    this.productId =productId;
+    this.product =product;
   }
 }
