@@ -30,3 +30,9 @@ h1 {
 h2 {
   font-size: 15px;
 }
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

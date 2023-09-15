@@ -1,0 +1,25 @@
+.add-cart {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+  }
+}
+
+.delete-cart {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: darkred;
+    cursor: pointer;
+  }
+}

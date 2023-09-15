@@ -7,14 +7,14 @@
     <span class='example-spacer'> </span>
     <button mat-button>Sales</button>
     <!--Hacer desplegable de categories y que muestre estos botones-->
-    <button mat-button>Categories</button>
-    <button mat-button><a class="btn btn" href="#machinery">Machinery</a></button>
-    <button mat-button><a class="btn btn" href="#military">Military</a></button>
-    <button mat-button><a class="btn btn" href="#sculpture">Sculpture</a></button>
-    <button mat-button><a class="btn btn" href="#spacex">Space X</a></button>
-    <button mat-button><a class="btn btn" href="#starwars">Star Wars</a></button>
-    
-
+    <button mat-button [matMenuTriggerFor]="menu">Categories</button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item><a class="btn btn" href="#machinery">Machinery</a></button>
+      <button mat-menu-item><a class="btn btn" href="#military">Military</a></button>
+      <button mat-menu-item><a class="btn btn" href="#sculpture">Sculpture</a></button>
+      <button mat-menu-item><a class="btn btn" href="#spacex">Space X</a></button>
+      <button mat-button><a class="btn btn" href="#starwars">Star Wars</a></button>
+    </mat-menu>
     <button (click)="navigate()" mat-button>
           <span class="material-symbols-rounded">
             Login

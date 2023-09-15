@@ -34,12 +34,12 @@ dependencies:
   '@angular/router':
     specifier: ^16.1.0
     version: 16.2.2(@angular/common@16.2.2)(@angular/core@16.2.2)(@angular/platform-browser@16.2.2)(rxjs@7.8.1)
+  '@popperjs/core':
+    specifier: ^2.11.8
+    version: 2.11.8
   bootstrap:
-    specifier: 5.3.1
-    version: 5.3.1(@popperjs/core@2.11.8)
-  ngx-bootstrap:
-    specifier: ^11.0.2
-    version: 11.0.2(@angular/animations@16.2.2)(@angular/common@16.2.2)(@angular/core@16.2.2)(@angular/forms@16.2.2)(rxjs@7.8.1)
+    specifier: 5.3.2
+    version: 5.3.2(@popperjs/core@2.11.8)
   rxjs:
     specifier: ~7.8.0
     version: 7.8.1
@@ -3621,8 +3621,8 @@ packages:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
     dev: true
 
-  /bootstrap@5.3.1(@popperjs/core@2.11.8):
-    resolution: {integrity: sha512-jzwza3Yagduci2x0rr9MeFSORjcHpt0lRZukZPZQJT1Dth5qzV7XcgGqYzi39KGAVYR8QEDVoO0ubFKOxzMG+g==}
+  /bootstrap@5.3.2(@popperjs/core@2.11.8):
+    resolution: {integrity: sha512-D32nmNWiQHo94BKHLmOrdjlL05q1c8oxbtBphQFb9Z5to6eGRDCm0QgeaZ4zFBHzfg2++rqa2JkqCcxDy0sH0g==}
     peerDependencies:
       '@popperjs/core': ^2.11.8
     dependencies:
@@ -5980,23 +5980,6 @@ packages:
   /neo-async@2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: true
-
-  /ngx-bootstrap@11.0.2(@angular/animations@16.2.2)(@angular/common@16.2.2)(@angular/core@16.2.2)(@angular/forms@16.2.2)(rxjs@7.8.1):
-    resolution: {integrity: sha512-McvQ72XB6692Jus47jahWWwjpSCa6EtHMIqoyMewKCEHMv0ybDgVnOAdEsWKvwfulowHn7Y/jDjeiURwYJG9cQ==}
-    peerDependencies:
-      '@angular/animations': ^16.0.0
-      '@angular/common': ^16.0.0
-      '@angular/core': ^16.0.0
-      '@angular/forms': ^16.0.0
-      rxjs: ^6.5.3 || ^7.6.0
-    dependencies:
-      '@angular/animations': 16.2.2(@angular/core@16.2.2)
-      '@angular/common': 16.2.2(@angular/core@16.2.2)(rxjs@7.8.1)
-      '@angular/core': 16.2.2(rxjs@7.8.1)(zone.js@0.13.1)
-      '@angular/forms': 16.2.2(@angular/common@16.2.2)(@angular/core@16.2.2)(@angular/platform-browser@16.2.2)(rxjs@7.8.1)
-      rxjs: 7.8.1
-      tslib: 2.6.2
-    dev: false
 
   /nice-napi@1.0.2:
     resolution: {integrity: sha512-px/KnJAJZf5RuBGcfD+Sp2pAKq0ytz8j+1NehvgIGFkvtvFrDM3T8E4x/JJODXK9WZow8RRGrbA9QQ3hs+pDhA==}

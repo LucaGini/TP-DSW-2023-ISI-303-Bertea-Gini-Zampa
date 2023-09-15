@@ -1,5 +1,15 @@
 .carousel-item img {
   height: 500px;
   width: 200px;
-  margin:50px 50px 50px 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.carousel-inner>.item>img {
+  object-fit: scale-down;
+  height: 50vh;
+  width: 100%;
+}
+.slide-item img {
+  max-width: 100%;
 }

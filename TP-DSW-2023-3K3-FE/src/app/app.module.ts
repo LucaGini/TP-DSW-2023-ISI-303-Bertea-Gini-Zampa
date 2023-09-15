@@ -17,7 +17,11 @@ import {MatFormFieldModule} from '@angular/material/form-field'; //contraseña
 import {MatInputModule} from '@angular/material/input';
 import { CarouselComponent } from './carousel/carousel.component';
 import { BottomComponent } from './bottom/bottom.component';// login input 
-
+import {MatMenuModule} from '@angular/material/menu';
+import {MatBadgeModule} from '@angular/material/badge';
+import { AddToCartComponent } from './add-to-cart/add-to-cart.component';
+import { FooterComponent } from './footer/footer.component';
+//import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -26,7 +30,9 @@ import { BottomComponent } from './bottom/bottom.component';// login input
     BodyComponent,
     LoginComponent,
     CarouselComponent,
-    BottomComponent
+    BottomComponent,
+    AddToCartComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +43,9 @@ import { BottomComponent } from './bottom/bottom.component';// login input
     MatIconModule,
     MatGridListModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatMenuModule,
+   // NgbModule
   ],
   exports: [
     MatToolbarModule,
@@ -45,7 +53,8 @@ import { BottomComponent } from './bottom/bottom.component';// login input
     MatIconModule,
     MatGridListModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
