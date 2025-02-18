@@ -12,8 +12,8 @@
 
 ## Tema
 ### Descripción
-Coco purse es una plataforma de ecommerce de la venta de carteras, billeteras y mochilas.
-Tenemos dos privilegios en el mismo, cliente y administrador, primero puede realizar la compra de los productos y ver las órdenes con sus estados ya realizados, y dentro de las primeras 24 horas de realizada la compra podrá cancelar el pedido. El administrador tiene acceso a todas las entidades y puede crear, editar o eliminar cualquiera de ellas siempre y cuando las mismas no tengan otras entidades hijas asociadas, de ser el caso primero se deberán de eliminar esas antes de poder eliminar las deseadas, respecto a las ordenes peude ver las de todos lo usuarios y puede cambiar a cancelado (mismas condiciones del cliente) y él solo puede cambiar a completado si lo desea( no hay restricción de tiempo)
+Coco purse es una plataforma de ecommerce que facilita la comercialización de carteras, billeteras, mochilas, y demás artículos de moda.
+El sistema cuenta con dos privilegios distintos para usuarios, cliente y administrador, donde el primero puede realizar la compra de los productos y ver las órdenes con su respectivo estado, y dentro de las primeras 24 horas de realizada la compra podrá cancelar el pedido. Por otro lado, el administrador tiene acceso a todas las entidades y puede crear, editar o eliminar cualquiera de ellas siempre y cuando las mismas no tengan otras entidades hijas asociadas, de ser el caso, primero se deberán de eliminar las entidades padre antes de poder eliminar las deseadas, respecto a las ordenes puede ver las de todos lo usuarios y puede cambiar a cancelado (mismas condiciones del cliente) y él solo puede cambiar a completado si lo desea( no hay restricción de tiempo).
 
 ### Modelo
 ![image](![image](https://github.com/user-attachments/assets/eb25064a-561d-4778-840e-2d14c81c3454)
@@ -47,6 +47,6 @@ Adicionales para Aprobación
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Listado de pedidos realizados por el cliente (del lado del cliente), muestra nombre cliente, fecha de pedido,nombre producto, cantidad de producto, precio unitario, precio total (sumando el recargo por provincia)<br>2. Listado de productos, permitiendo la edición de sus datos o borrarlo y un filtrado por proveedores<br>3. Filtrado de órdenes por estado y por fecha de realización (los mismos se pueden aplicar simultaneamente o por separado)
-|Otros|-|
+|Listados |1. Listado de pedidos realizados por el cliente (del lado del cliente), muestra nombre cliente, fecha de pedido, nombre producto, cantidad de producto, precio unitario, precio total (sumando el recargo por provincia).<br>2. Listado de productos, permitiendo la edición de sus datos o borrarlo y un filtrado por proveedores.<br>3. Filtrado de órdenes por estado y por rango de fecha de realización (los mismos se pueden aplicar simultaneamente o por separado).
+|Otros |1. Implementación de barra de búsqueda de productos, ya sea por nombre o categoría.<br>2. Notificación vía correo electrónico al usuario cliente si su órden ha sido cancelada. 
 
